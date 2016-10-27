@@ -7,9 +7,6 @@
     "require": {
         "php": ">=5.6.4",
         "laravel/framework": "5.3.*",
-        "barryvdh/laravel-debugbar": "^2.3",
-        "greggilbert/recaptcha": "dev-master",
-        "webcraft/laravel-random": "^1.0",
         "joshtronic/php-loremipsum": "dev-master",
         "guzzlehttp/guzzle": "~5.0",
         "randomuser/generator"  : "1.0.*"

@@ -1,7 +1,43 @@
 body{
 	background-color: #F0F0F0;
 }
+.title{
+	padding-top: 2.9em;
+}
+.container {
+    text-align:center;
+    border: 5em;
+}
+.loremipsum{
+	text-align: left;
+	padding-left: 2em;
+    text-indent:-2em;
+}
+.generatedusers{
+	text-align: left;
+	float:right;
+	padding-left: 25em;
+	width: 100%;
+}
 .user{
-	float: left;
-	display: block;
+	text-align: left;
+	display:inline-block;
+	vertical-align:middle; 
+}
+.userphoto
+{
+	float:left;
+	border: 2px solid grey;
+	border-radius: 17px;
+	box-shadow: 7px 7px 15px #888888;
+
+}
+.userinfo{
+	float:right;
+
+}
+#main-menu
+{
+	float:right;
+	padding-right: 10em;
 }

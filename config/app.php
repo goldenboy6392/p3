@@ -178,9 +178,6 @@ return [
         // P3\Providers\BroadcastServiceProvider::class,
         P3\Providers\EventServiceProvider::class,
         P3\Providers\RouteServiceProvider::class,
-        Barryvdh\Debugbar\ServiceProvider::class,
-        Greggilbert\Recaptcha\RecaptchaServiceProvider::class,
-        Webcraft\Random\RandomServiceProvider::class,
 
     ],
 
@@ -229,9 +226,6 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-        'Debugbar' => Barryvdh\Debugbar\Facade::class,
-        'Recaptcha' => Greggilbert\Recaptcha\Facades\Recaptcha::class,
-        'Random' => Webcraft\Random\RandomFacade::class
 
     ],
 

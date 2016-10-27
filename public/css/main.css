@@ -1,43 +1,58 @@
 body{
 	background-color: #F0F0F0;
 }
-.title{
-	padding-top: 2.9em;
-}
-.container {
-    text-align:center;
-    border: 5em;
-}
-.loremipsum{
+blockquote{
 	text-align: left;
-	padding-left: 2em;
-    text-indent:-2em;
-}
-.generatedusers{
-	text-align: left;
-	float:right;
-	padding-left: 25em;
-	width: 100%;
-}
-.user{
-	text-align: left;
-	display:inline-block;
-	vertical-align:middle; 
-}
-.userphoto
-{
-	float:left;
-	border: 2px solid grey;
-	border-radius: 17px;
-	box-shadow: 7px 7px 15px #888888;
-
-}
-.userinfo{
-	float:right;
+	border-left: 5px solid gray;
+	width: 75%;
+	margin-left:auto;
+	margin-right:auto;
 
 }
 #main-menu
 {
 	float:right;
 	padding-right: 10em;
+}
+.homepagelink{
+	text-decoration: underline;
+}
+.title{
+	padding-top: 2.9em;
+}
+.container {
+    text-align:center;
+}
+.error{
+	text-align: center;
+}
+.text{
+	width:2em;
+	text-align: center;
+}
+.loremipsum{
+	text-align: left;
+	padding-left: 2em;
+    text-indent:-2em;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.generatedusers{
+	text-align: left;
+	padding-left: 25em;
+}
+.user{
+	display:inline-block;
+	border-bottom: 2px solid grey;
+	margin-bottom: 1em;
+}
+.userphoto
+{
+	border: 2px solid grey;
+	border-radius: 1em;
+	box-shadow: 7px 7px 15px #888888;
+}
+.userinfo{
+	float:right;
 }

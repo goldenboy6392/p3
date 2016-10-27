@@ -1,3 +1,3 @@
-Website: p3.stevengolden.me
+Website: http://p3.stevengolden.me
 
-Demo:  p3.stevengolden.me/demo.mp4
+Demo:  http://p3.stevengolden.me/demo.mp4

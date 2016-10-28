@@ -9,8 +9,7 @@
         "laravel/framework": "5.3.*",
         "joshtronic/php-loremipsum": "dev-master",
         "guzzlehttp/guzzle": "~5.0",
-        "randomuser/generator"  : "1.0.*",
-        "greggilbert/recaptcha": "dev-master"
+        "randomuser/generator"  : "1.0.*"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

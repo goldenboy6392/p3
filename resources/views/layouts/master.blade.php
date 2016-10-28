@@ -8,15 +8,14 @@
     <meta charset="utf-8">
     <link href='//netdna.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css' rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/css/main.css">
-
 </head>
 <body>
     <nav id="main-menu">
-    <h3><strong>Navigation</strong></h3>
-    <ul>
-        <li><a href="/">Home</a></li>
-        @yield('nav')
-    </ul>
+        <h3><strong>Navigation</strong></h3>
+        <ul>
+            <li><a href="/">Home</a></li>
+            @yield('nav')
+        </ul>
     </nav>
     <section>
         <div class="container">
@@ -26,5 +25,8 @@
             @yield ('formcontent')
         </div>
     </section>
+    <footer>
+        &copy; {{ date('Y') }} Steven Golden <a href="https://github.com/goldenboy6392/p3">Github</a>
+    </footer>
 </body>
 </html>

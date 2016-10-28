@@ -9,10 +9,14 @@ blockquote{
 	margin-right:auto;
 
 }
+footer{
+	padding-left: 80%;
+	padding-bottom:1%;
+}
 #main-menu
 {
-	float:right;
-	padding-right: 10em;
+	padding-left: 80%;
+	position: fixed;
 }
 .homepagelink{
 	text-decoration: underline;
@@ -40,7 +44,7 @@ blockquote{
 }
 .generatedusers{
 	text-align: left;
-	padding-left: 25em;
+	padding-left: 33%;
 }
 .user{
 	display:inline-block;

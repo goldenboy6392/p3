@@ -12,7 +12,6 @@
 */
 
 Route::get('/', 'HomepageController@index')->name('homepage.index');
-
 Route::get('/LoremIpsum', 'LoremIpsumController@index')->name('loremipsum.index');
 Route::post('/LoremIpsum', 'LoremIpsumController@store')->name('loremipsum.store');
 Route::get('/RandomUser', 'RandomUserController@index')->name('randomuser.index');

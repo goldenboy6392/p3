@@ -6,11 +6,16 @@ use Illuminate\Http\Request;
 
 class RandomUserController extends Controller
 {
-    public function index(){
+
+    public function index()
+    {
     	$userinfo="";
     	return \view('randomuser.show')->with('userinfo',$userinfo);
     }
-    public function store(Request $request){    	 
+
+
+    public function store(Request $request)
+    {    	 
     	$this->validate($request, [
         	'number' => 'required|integer|max:99|min:1',
     	]);
@@ -34,7 +39,8 @@ class RandomUserController extends Controller
 				."</li>"."<br><li><strong>Gender: </strong>".$gender."</li>"."<br><li><strong>Birthday: </strong>".$birthday."</li>"."<br><li><strong>Address: </strong>".$street.", ".$city
 				.", ".$state.", ".$zip." ".$country."</li>"."<br><li><strong>Email: </strong>".$email."</li></ul></div>";
 			$userinfo=$temp[1];
-			for ($j = 2; $j <= sizeof($temp); $j++){
+			for ($j = 2; $j <= sizeof($temp); $j++)
+			{
 				$userinfo=$userinfo. $temp[$j];
 			}
 		}

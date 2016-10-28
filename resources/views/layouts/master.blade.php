@@ -26,10 +26,5 @@
             @yield ('formcontent')
         </div>
     </section>
-
-    <footer>
-        &copy; {{ date('Y') }}
-    </footer>
-    @yield('body')
 </body>
 </html>

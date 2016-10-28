@@ -25,7 +25,11 @@
 @stop
 
 @section('formcontent')
-<div class='error'>{!! $error !!}</div>
+	@if(count($errors) > 0)
+	    @foreach ($errors->all() as $error)
+	        <div>{{ $error }}</div>
+	    @endforeach
+	@endif
 	<div class="loremipsum">
     	{!! $lipsum->paragraphs($number,'p') !!}
 	</div>	

@@ -18,7 +18,7 @@
 		<form method ='POST'>
 			{{ csrf_field() }}
 			<label>How many paragraphs do you want to generate?</label><br>
-			<input maxlength=3 class="text" type="text" name="number" id="number" value="5">  (Maximum of <strong><ins>99</ins></strong>)<br><br>
+			<input maxlength=2 class="text" type="text" name="number" id="number" value="5">  (Maximum of <strong><ins>99</ins></strong>)<br><br>
 			<input type='submit' name='submit' class='btn btn-default' value='Generate New Filler Text'>
 		</form> <br>
 	</div>
